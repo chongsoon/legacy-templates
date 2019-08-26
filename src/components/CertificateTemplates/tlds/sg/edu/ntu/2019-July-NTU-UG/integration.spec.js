@@ -36,7 +36,7 @@ test("NTU Undergrad certificate is rendered correctly", async t => {
 
   // Certificate tab content
   await validateTextContent(t, RenderedCertificate, [
-    "NTU Student Name",
-    "NTU Degree in EEE"
+    "Jack Lim",
+    "Bachelor of Engineering (Electrical & Electronic Engineering)"
   ]);
 });
