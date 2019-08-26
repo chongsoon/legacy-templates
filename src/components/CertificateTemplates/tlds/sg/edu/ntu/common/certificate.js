@@ -87,8 +87,8 @@ export const certIssueDateTextStyle = {
 };
 
 export const nameTextStyle = {
-  fontFamily: "FootlightMT",
-  fontSize: "2.5rem",
+  fontFamily: "Amiri, serif",
+  fontSize: "2.7rem",
   textAlign: "left",
   fontStyle: "italic",
   fontWeight: "700",
@@ -286,7 +286,7 @@ export default ({ logo }) => ({ certificate }) => (
   <div>
     <head>
       <link
-        href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap"
+        href="https://fonts.googleapis.com/css?family=Amiri|Poppins:400,400i,600,600i,700,700i&display=swap"
         rel="stylesheet"
       />
     </head>
