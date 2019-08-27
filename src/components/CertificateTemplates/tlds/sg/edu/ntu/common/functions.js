@@ -21,12 +21,6 @@ export const formatDate = dateString => {
   return `${day} ${months[month]} ${year}`;
 };
 
-export const formatNRIC = nricFin => {
-  if (!nricFin) return null;
-  const arrayNric = nricFin.split(":");
-  return arrayNric.length === 3 ? arrayNric[2] : null;
-};
-
 export const formatCertID = certId => {
   if (!certId) return null;
   const arrayCertId = certId.split(":");
