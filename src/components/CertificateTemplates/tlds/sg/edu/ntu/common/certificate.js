@@ -30,7 +30,7 @@ export const hrLineStyle = {
 export const printTextStyle = {
   fontFamily: "Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic",
   fontWeight: "500!important",
-  fontSize: "1.3rem",
+  fontSize: "1.3em",
   textAlign: "left",
   marginBottom: "0",
   bottom: 0,
@@ -292,7 +292,12 @@ export default ({ logo }) => ({ certificate }) => (
     </head>
     <div
       className="container"
-      style={{ border: 1, borderColor: "#AAA", borderStyle: "solid" }}
+      style={{
+        border: 1,
+        borderColor: "#AAA",
+        borderStyle: "solid",
+        minWidth: "1000px"
+      }}
     >
       <div className="row justify-content-start mt-5 ml-5 mr-1">
         <div className="col-9">
