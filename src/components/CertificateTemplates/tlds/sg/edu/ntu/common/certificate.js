@@ -30,7 +30,7 @@ export const hrLineStyle = {
 export const printTextStyle = {
   fontFamily: "Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic",
   fontWeight: "500!important",
-  fontSize: "1.3em",
+  fontSize: "1.3rem",
   textAlign: "left",
   marginBottom: "0",
   bottom: 0,
